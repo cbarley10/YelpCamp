@@ -2,6 +2,10 @@ body {
   background-color: #000;
 }
 
+.btn {
+    opacity: 0.9;
+}
+
 #landing-header {
   z-index: 1;
   position: relative;
@@ -11,6 +15,7 @@ body {
 
 #landing-header h1 {
   color: #fff;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 .slideshow { 
