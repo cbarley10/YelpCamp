@@ -53,7 +53,6 @@ middlewareObj.checkCommentOwnership = function(req, res, next) {
 
 middlewareObj.isLoggedIn = function(req, res, next){
     if(req.isAuthenticated()){
-        req.flash("success", "Logged in!");
         return next();
     }
     req.flash("error", "Please Login First!");
